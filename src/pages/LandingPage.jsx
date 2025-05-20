@@ -18,8 +18,8 @@ const LandingPage = () => {
     >
       <div className="overlay">
         <div className="landing-content">
-          <h1>Welcome to Love App</h1>
-          <button onClick={() => navigate('/game')}>Start</button>
+          <h1>Happy Birthday my Love</h1>
+          <button onClick={() => navigate('/game')}>Let's Begin</button>
         </div>
       </div>
     </div>
