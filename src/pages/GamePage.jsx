@@ -4,7 +4,7 @@ import '../styles/GamePage.css';
 
 const mediaItems = Array.from({ length: 25 }, (_, i) => ({
   image: `/picture/image${i + 1}.jpg`,
-  caption: `This is image ${i + 1}`
+  caption: `Every moment with you has been a beautiful chapter, and I can’t wait to spend forever writing our story together`
 }));
 
 const GamePage = () => {
@@ -28,14 +28,14 @@ const GamePage = () => {
 
   return (
     <div className="game-container">
-      <h2>Tap the button to see something!</h2>
+      <h2>Tap the button to explore our beautiful moments!</h2>
       {currentItem && (
         <>
           <img src={currentItem.image} alt="memory" className="responsive-image" />
           <p>{currentItem.caption}</p>
         </>
       )}
-      <button onClick={showRandom}>Show Me!</button>
+      <button onClick={showRandom}>Our Memories</button>
     </div>
   );
 };
