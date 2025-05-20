@@ -3,9 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import '../styles/PuzzlePage.css';
 
 const puzzles = [
-  { question: "I speak without a mouth and hear without ears. What am I?", answer: "echo" },
-  { question: "What has keys but can't open locks?", answer: "piano" },
-  { question: "What gets wetter the more it dries?", answer: "towel" },
+  { question: "Do you remember the first time we met outside? Can you tell me the exact place you realized I was someone special?", answer: "johnson" },
+  { question: "What is rakesh favorite chocolate ?", answer: "darkchocolate" },
 ];
 
 const PuzzlePage = () => {
@@ -31,7 +30,7 @@ const PuzzlePage = () => {
 
   return (
     <div className="puzzle-container">
-      <h2>Solve this puzzle ❤️</h2>
+      <h2>Solve this puzzle to see an amazing ending ❤️</h2>
       <p>{puzzle.question}</p>
       <input value={input} onChange={(e) => setInput(e.target.value)} placeholder="Your answer" />
       <button onClick={handleSubmit}>Submit</button>
