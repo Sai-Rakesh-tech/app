@@ -12,13 +12,13 @@ const GamePage = () => {
   const navigate = useNavigate();
 
   const showRandom = () => {
-    if (shown.length === 25) return;
+    if (shown.length === 3) return;
 
     let remaining = mediaItems.filter((_, i) => !shown.includes(i));
     let index = mediaItems.indexOf(remaining[Math.floor(Math.random() * remaining.length)]);
     setShown([...shown, index]);
 
-    if (shown.length + 1 === 25) {
+    if (shown.length + 1 === 3) {
       setTimeout(() => navigate('/puzzle'), 1500);
     }
   };
