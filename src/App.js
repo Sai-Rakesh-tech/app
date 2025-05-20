@@ -1,11 +1,11 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import LandingPage from './components/LandingPage';
-import GamePage from './components/GamePage';
-import PuzzlePage from './components/PuzzlePage';
-import UnlockPage from './components/UnlockPage';
+import LandingPage from './pages/LandingPage';
+import GamePage from './pages/GamePage';
+import PuzzlePage from './pages/PuzzlePage';
+import UnlockPage from './pages/UnlockPage';
 
-const App = () => {
+function App() {
   return (
     <Router>
       <Routes>
@@ -16,6 +16,6 @@ const App = () => {
       </Routes>
     </Router>
   );
-};
+}
 
 export default App;
