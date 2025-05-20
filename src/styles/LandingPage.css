@@ -1,1 +1,29 @@
+.landing-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+}
+
+.landing-content {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 40px;
+  border-radius: 16px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: #ff6f91;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
 
