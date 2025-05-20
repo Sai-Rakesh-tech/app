@@ -10,8 +10,9 @@ const LandingPage = () => {
       className="landing-container"
       style={{
         backgroundImage: `url(${process.env.PUBLIC_URL}/media/background.jpg)`,
-        backgroundSize: 'cover',
+        backgroundSize: 'contain',  // Change from 'cover' to 'contain'
         backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat', // Prevent repeating the background image
         height: '100vh'
       }}
     >
