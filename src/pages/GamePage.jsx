@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../styles/GamePage.css';
 
-const mediaItems = Array.from({ length: 25 }, (_, i) => ({
+const mediaItems = Array.from({ length: 3 }, (_, i) => ({
   image: `/media/image${i + 1}.jpg`,
   caption: `This is image ${i + 1}`
 }));
