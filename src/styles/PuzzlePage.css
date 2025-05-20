@@ -1,1 +1,31 @@
+.puzzle-container {
+  height: 100vh;
+  background: linear-gradient(to top, #ffe1ec, #dff5ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+input {
+  padding: 10px;
+  margin: 1rem 0;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+}
+
+button {
+  background: #ff6f91;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
 
