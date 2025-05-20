@@ -1,17 +1,17 @@
 .landing-container {
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('/media/background.jpg') no-repeat center center fixed;
-  background-size: cover;
+}
+
+.overlay {
+  background-color: rgba(255, 255, 255, 0.6); /* light overlay */
+  padding: 2rem;
+  border-radius: 16px;
 }
 
 .landing-content {
   text-align: center;
-  background: rgba(255, 255, 255, 0.85);
-  padding: 40px;
-  border-radius: 16px;
 }
 
 h1 {
@@ -27,4 +27,3 @@ button {
   border: none;
   border-radius: 8px;
 }
-
