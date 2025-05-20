@@ -6,14 +6,23 @@ const LandingPage = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="landing-container">
-      <div className="landing-content">
-        <h1>Welcome to Love App</h1>
-        <button onClick={() => navigate('/game')}>Start</button>
+    <div
+      className="landing-container"
+      style={{
+        backgroundImage: `url(${process.env.PUBLIC_URL}/media/background.jpg)`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        height: '100vh'
+      }}
+    >
+      <div className="overlay">
+        <div className="landing-content">
+          <h1>Welcome to Love App</h1>
+          <button onClick={() => navigate('/game')}>Start</button>
+        </div>
       </div>
     </div>
   );
 };
 
 export default LandingPage;
-
